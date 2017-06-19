@@ -1,0 +1,16 @@
+<% if logged_in? %>
+	<%= link_to "Logout", "#" %>
+<% else %>
+	<%= link_to "Signup", signup_path %>
+	<%= link_to "Login", "#" %>
+<% end %>
+
+<% if @users %>
+	<% @users.each do |u| %>
+		<p><%= u.firstname%></p>
+		<p><%= u.lastname%></p>
+		<p><%= u.username%></p>
+		<p><%= u.email%></p>
+		<p><%= u.password_digest%></p>
+	<% end %>
+<% end %>

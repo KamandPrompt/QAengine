@@ -1,0 +1,24 @@
+<% link_to "Home", root_path %>
+
+<h2>Sign Up</h2>
+<%= form_for(@user, url: {action: :create, controller: :users}, method: :post) do |f| %>
+	<%= f.label "First Name : " %>
+	<%= f.text_field :firstname %>
+	<br>
+	<%= f.label "First Name : " %>
+	<%= f.text_field :lastname %>
+	<br>
+	<%= f.label "Email : " %>
+	<%= f.text_field :email %>
+	<br>
+	<%= f.label "Username" %>
+	<%= f.text_field :username %>
+	<br>
+	<%= f.label "password" %>
+	<%= f.password_field :password %>
+	<br>
+	<%= f.label "confirm password" %>
+	<%= f.password_field :password_confirmation %>
+	<br>
+	<%= f.submit "Signup Now"%>
+<% end %>
