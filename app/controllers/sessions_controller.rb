@@ -1,16 +1,20 @@
 class SessionsController < ApplicationController
-
-
-	def login
-		@user = User.find_by(username: params[:session][:username] )
-		byebug
-		if @user && @user.authenticate(params[:session][:password])
+	def create_session
+		
+		@user = User.find_by(username: params[:username] )
+		
+		if @user && @user.authenticate(params[:password])
 			log_in @user
-			redirect_to @user
+			redirect_to root_path
+			
 		else
 			puts "Wrong credentials! Enter Again "
 			render 'signup'
 		end	
+	end
+
+	def login
+
 	end
 
 
