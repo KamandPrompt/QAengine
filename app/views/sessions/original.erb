@@ -1,0 +1,12 @@
+<% link_to "Home", root_path %>
+
+<% provide(:title, "Log in") %>
+<h1>Log in</h1>
+
+   	 <%= form_tag("/create_session", method: :get) do %>
+		Username :<%= text_field_tag(:username) %><br>
+		Password :<%= password_field_tag(:password) %><br>
+		<%= submit_tag(:Login)%>
+	<% end %>
+
+    <p>New user? <%= link_to "Sign up now!", signup_path %></p>
