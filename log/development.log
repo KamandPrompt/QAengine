@@ -2090,3 +2090,726 @@ Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-06-30 10:55:40 
 Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-06-30 10:55:40 +0100
 Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-06-30 10:55:40 +0100
 Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-06-30 10:55:40 +0100
+Started GET "/login" for 127.0.0.1 at 2017-06-30 14:58:57 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (201.5ms)
+Completed 500 Internal Server Error in 226ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery.turbolinks' with type 'application/javascript'
+Checked in these paths: 
+  /media/lenovo/IIT Mandi/PC Projects/QAengine/QAengine/app/assets/config
+  /media/lenovo/IIT Mandi/PC Projects/QAengine/QAengine/app/assets/images
+  /media/lenovo/IIT Mandi/PC Projects/QAengine/QAengine/app/assets/javascripts
+  /media/lenovo/IIT Mandi/PC Projects/QAengine/QAengine/app/assets/stylesheets
+  /media/lenovo/IIT Mandi/PC Projects/QAengine/QAengine/vendor/assets/javascripts
+  /media/lenovo/IIT Mandi/PC Projects/QAengine/QAengine/vendor/assets/stylesheets
+  /home/lenovo/.rvm/gems/ruby-2.4.0/gems/materialize-sass-0.98.2/app/assets/fonts
+  /home/lenovo/.rvm/gems/ruby-2.4.0/gems/materialize-sass-0.98.2/app/assets/javascripts
+  /home/lenovo/.rvm/gems/ruby-2.4.0/gems/materialize-sass-0.98.2/app/assets/stylesheets
+  /home/lenovo/.rvm/gems/ruby-2.4.0/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /home/lenovo/.rvm/gems/ruby-2.4.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actioncable-5.0.4/lib/assets/compiled
+  /home/lenovo/.rvm/gems/ruby-2.4.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /home/lenovo/.rvm/gems/ruby-2.4.0/gems/materialize-sass-0.98.2/app/assets/stylesheets
+  /home/lenovo/.rvm/gems/ruby-2.4.0/gems/materialize-sass-0.98.2/app/assets/javascripts
+  /home/lenovo/.rvm/gems/ruby-2.4.0/gems/materialize-sass-0.98.2/app/assets/fonts
+  /home/lenovo/.rvm/gems/ruby-2.4.0/gems/materialize-sass-0.98.2/app/assets/images):
+     7:   
+     8:   <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+     9: <%= stylesheet_link_tag "style" %>
+    10: <%= javascript_include_tag "application" %>
+    11: <%= csrf_meta_tags %>
+    12: </head>
+    13: 
+  
+app/assets/javascripts/application.js:14
+app/views/sessions/login.html.erb:10:in `_app_views_sessions_login_html_erb__1119856942158197016_70280266363880'
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (14.2ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (67.4ms)
+Started GET "/login" for 127.0.0.1 at 2017-06-30 14:59:23 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (22.3ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery.turbolinks' with type 'application/javascript'
+Checked in these paths: 
+  /media/lenovo/IIT Mandi/PC Projects/QAengine/QAengine/app/assets/config
+  /media/lenovo/IIT Mandi/PC Projects/QAengine/QAengine/app/assets/images
+  /media/lenovo/IIT Mandi/PC Projects/QAengine/QAengine/app/assets/javascripts
+  /media/lenovo/IIT Mandi/PC Projects/QAengine/QAengine/app/assets/stylesheets
+  /media/lenovo/IIT Mandi/PC Projects/QAengine/QAengine/vendor/assets/javascripts
+  /media/lenovo/IIT Mandi/PC Projects/QAengine/QAengine/vendor/assets/stylesheets
+  /home/lenovo/.rvm/gems/ruby-2.4.0/gems/materialize-sass-0.98.2/app/assets/fonts
+  /home/lenovo/.rvm/gems/ruby-2.4.0/gems/materialize-sass-0.98.2/app/assets/javascripts
+  /home/lenovo/.rvm/gems/ruby-2.4.0/gems/materialize-sass-0.98.2/app/assets/stylesheets
+  /home/lenovo/.rvm/gems/ruby-2.4.0/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /home/lenovo/.rvm/gems/ruby-2.4.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actioncable-5.0.4/lib/assets/compiled
+  /home/lenovo/.rvm/gems/ruby-2.4.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /home/lenovo/.rvm/gems/ruby-2.4.0/gems/materialize-sass-0.98.2/app/assets/stylesheets
+  /home/lenovo/.rvm/gems/ruby-2.4.0/gems/materialize-sass-0.98.2/app/assets/javascripts
+  /home/lenovo/.rvm/gems/ruby-2.4.0/gems/materialize-sass-0.98.2/app/assets/fonts
+  /home/lenovo/.rvm/gems/ruby-2.4.0/gems/materialize-sass-0.98.2/app/assets/images):
+     7:   
+     8:   <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+     9: <%= stylesheet_link_tag "style" %>
+    10: <%= javascript_include_tag "application" %>
+    11: <%= csrf_meta_tags %>
+    12: </head>
+    13: 
+  
+app/assets/javascripts/application.js:14
+app/views/sessions/login.html.erb:10:in `_app_views_sessions_login_html_erb__1119856942158197016_70280265236580'
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.2ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.2ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.8ms)
+Started GET "/login" for 127.0.0.1 at 2017-06-30 14:59:38 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (69.6ms)
+Completed 200 OK in 183ms (Views: 179.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-06-30 14:59:38 +0100
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-06-30 14:59:38 +0100
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-06-30 14:59:38 +0100
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-06-30 14:59:38 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:38 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:38 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:38 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:38 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:38 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:38 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:38 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:38 +0100
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-06-30 14:59:38 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:38 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:39 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:39 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:39 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:39 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:39 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:39 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:39 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:39 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:39 +0100
+Started GET "/create_session?utf8=%E2%9C%93&username=ashish118&password=[FILTERED]&commit=Login" for 127.0.0.1 at 2017-06-30 14:59:45 +0100
+Processing by SessionsController#create_session as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"ashish118", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "ashish118"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 152ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-30 14:59:46 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 96ms (Views: 92.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-06-30 14:59:46 +0100
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-06-30 14:59:46 +0100
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-06-30 14:59:46 +0100
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-06-30 14:59:46 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:46 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:46 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:46 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:46 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:46 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:46 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:46 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:46 +0100
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-06-30 14:59:46 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:46 +0100
+Started GET "/assets/roboto/Roboto-Regular.woff2" for 127.0.0.1 at 2017-06-30 14:59:48 +0100
+Started GET "/assets/roboto/Roboto-Regular.woff" for 127.0.0.1 at 2017-06-30 14:59:48 +0100
+Started DELETE "/logout" for 127.0.0.1 at 2017-06-30 14:59:48 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"6zStUe09hvCWsty7kqif6Zq/BBN86NG8c8Tblhc+qmuwqFH7W2BqEo6+UfQmi9b4K2jSk5StDmmnR3KtbpX+Fw=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-30 14:59:48 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 99ms (Views: 92.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-06-30 14:59:49 +0100
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-06-30 14:59:49 +0100
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-06-30 14:59:49 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:49 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:49 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:49 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:49 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:49 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:49 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:49 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:49 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:49 +0100
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-06-30 14:59:49 +0100
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-06-30 14:59:49 +0100
+Started GET "/login" for 127.0.0.1 at 2017-06-30 14:59:51 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (56.8ms)
+Completed 200 OK in 134ms (Views: 130.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:51 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:51 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:51 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:51 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:51 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:51 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:51 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:51 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-06-30 14:59:52 +0100
+Started GET "/create_session?utf8=%E2%9C%93&username=&password=&commit=Login" for 127.0.0.1 at 2017-06-30 15:00:01 +0100
+Processing by SessionsController#create_session as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", ""], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::MissingTemplate (Missing template sessions/signup, application/signup with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/media/lenovo/IIT Mandi/PC Projects/QAengine/QAengine/app/views"
+):
+  
+app/controllers/sessions_controller.rb:12:in `create_session'
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.0ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (37.7ms)
+Started GET "/login" for 127.0.0.1 at 2017-06-30 15:00:04 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (47.1ms)
+Completed 200 OK in 148ms (Views: 144.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:00:04 +0100
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:00:04 +0100
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:00:04 +0100
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:00:04 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:00:04 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:00:04 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:00:04 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:00:04 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:00:04 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:00:04 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:00:04 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:00:04 +0100
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-06-30 15:00:05 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:00:05 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:00:05 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:00:05 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:00:05 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:00:05 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:00:05 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:00:05 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:00:05 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:00:05 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:00:05 +0100
+Started GET "/login" for 127.0.0.1 at 2017-06-30 15:08:02 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (46.3ms)
+Completed 200 OK in 311ms (Views: 308.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:08:02 +0100
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:08:02 +0100
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:08:02 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:02 +0100
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:08:02 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:02 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:02 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:03 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:03 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:03 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:03 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:03 +0100
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-06-30 15:08:03 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:03 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:03 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:04 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:04 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:04 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:04 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:04 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:04 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:04 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:04 +0100
+Started GET "/login" for 127.0.0.1 at 2017-06-30 15:08:06 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (53.4ms)
+Completed 200 OK in 137ms (Views: 133.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:08:06 +0100
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:08:06 +0100
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:08:06 +0100
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:08:06 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:06 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:06 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:06 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:06 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:06 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:06 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:06 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:06 +0100
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-06-30 15:08:06 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:07 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:07 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:08 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:08 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:08 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:08 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:08 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:08 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:08 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:08:08 +0100
+Started GET "/login" for 127.0.0.1 at 2017-06-30 15:13:05 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (48.0ms)
+Completed 200 OK in 252ms (Views: 249.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:13:05 +0100
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:13:05 +0100
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:13:05 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:13:05 +0100
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:13:05 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:13:05 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:13:05 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:13:05 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:13:05 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:13:05 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:13:05 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:13:05 +0100
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-06-30 15:13:05 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:13:06 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:13:06 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:13:06 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:13:06 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:13:06 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:13:06 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:13:06 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:13:06 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:13:06 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:13:06 +0100
+Started GET "/login" for 127.0.0.1 at 2017-06-30 15:18:56 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (50.2ms)
+Completed 200 OK in 173ms (Views: 169.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:18:56 +0100
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:18:56 +0100
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:18:56 +0100
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:18:56 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:18:56 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:18:56 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:18:56 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:18:56 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:18:56 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:18:56 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:18:56 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:18:56 +0100
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-06-30 15:18:56 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:18:57 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:18:57 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:18:57 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:18:57 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:18:57 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:18:57 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:18:57 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:18:57 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:18:57 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:18:57 +0100
+Started GET "/login" for 127.0.0.1 at 2017-06-30 15:50:57 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (193.9ms)
+Completed 200 OK in 448ms (Views: 444.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:50:57 +0100
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:50:57 +0100
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:50:57 +0100
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:50:57 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:50:57 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:50:57 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:50:57 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:50:57 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:50:57 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:50:57 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:50:57 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:50:57 +0100
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-06-30 15:50:57 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:50:57 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:50:58 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:50:58 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:50:58 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:50:58 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:50:58 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:50:58 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:50:58 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:50:58 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:50:58 +0100
+Started GET "/login" for 127.0.0.1 at 2017-06-30 15:51:01 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (45.8ms)
+Completed 200 OK in 133ms (Views: 129.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:51:01 +0100
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:51:01 +0100
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:51:01 +0100
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:51:01 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:51:01 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:51:01 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:51:01 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:51:01 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:51:01 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:51:01 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:51:01 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:51:01 +0100
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-06-30 15:51:01 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:51:02 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:51:03 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:51:04 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:51:04 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:51:04 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:51:04 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:51:04 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:51:04 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:51:04 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:51:04 +0100
+Started GET "/login" for 127.0.0.1 at 2017-06-30 15:52:02 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (51.3ms)
+Completed 200 OK in 176ms (Views: 173.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:52:02 +0100
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:52:02 +0100
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:52:02 +0100
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-06-30 15:52:02 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:52:02 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:52:02 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:52:02 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:52:02 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:52:02 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:52:02 +0100
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-06-30 15:52:02 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:52:02 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:52:02 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:52:02 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:52:02 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:52:03 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:52:03 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:52:03 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:52:03 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:52:03 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:52:03 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:52:03 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-06-30 15:52:03 +0100
+Started GET "/login" for 127.0.0.1 at 2017-07-03 11:47:02 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (825.4ms)
+Completed 200 OK in 1473ms (Views: 1425.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:47:04 +0100
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:47:04 +0100
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:47:04 +0100
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:47:04 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:04 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:04 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:04 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:04 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:04 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:04 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:04 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:04 +0100
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-03 11:47:04 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:05 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:05 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:05 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:05 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:05 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:05 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:05 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:05 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:05 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:05 +0100
+Started GET "/create_session?utf8=%E2%9C%93&username=&password=&commit=Login" for 127.0.0.1 at 2017-07-03 11:47:07 +0100
+Processing by SessionsController#create_session as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", ""], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 1.1ms)
+
+
+  
+ActionView::MissingTemplate (Missing template sessions/signup, application/signup with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/media/lenovo/IIT Mandi/PC Projects/QAengine/QAengine/app/views"
+):
+  
+app/controllers/sessions_controller.rb:12:in `create_session'
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.3ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (34.3ms)
+Started GET "/create_session?utf8=%E2%9C%93&username=test&password=[FILTERED]&commit=Login" for 127.0.0.1 at 2017-07-03 11:47:14 +0100
+Processing by SessionsController#create_session as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"test", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "test"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 89ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-03 11:47:14 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 89ms (Views: 84.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:47:14 +0100
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:47:14 +0100
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:47:14 +0100
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:47:14 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:14 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:14 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:14 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:14 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:14 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:14 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:14 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:14 +0100
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-03 11:47:14 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:47:14 +0100
+Started GET "/login" for 127.0.0.1 at 2017-07-03 11:48:05 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (41.9ms)
+Completed 200 OK in 118ms (Views: 115.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:48:05 +0100
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:48:05 +0100
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:48:05 +0100
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:48:05 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:05 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:05 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:05 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:05 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:05 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:05 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:05 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:05 +0100
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-03 11:48:05 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:06 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:06 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:06 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:06 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:06 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:06 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:06 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:06 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:06 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:06 +0100
+Started GET "/login" for 127.0.0.1 at 2017-07-03 11:48:41 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (44.9ms)
+Completed 200 OK in 121ms (Views: 118.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:48:41 +0100
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:48:41 +0100
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:48:41 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:41 +0100
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:48:41 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:41 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:41 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:41 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:41 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:41 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:41 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:41 +0100
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-03 11:48:41 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:42 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:42 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:42 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:42 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:42 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:42 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:42 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:42 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:42 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:42 +0100
+Started GET "/create_session?utf8=%E2%9C%93&username=test&password=[FILTERED]&commit=Login" for 127.0.0.1 at 2017-07-03 11:48:59 +0100
+Processing by SessionsController#create_session as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"test", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "test"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 70ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-03 11:48:59 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 79ms (Views: 76.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:48:59 +0100
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:48:59 +0100
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:48:59 +0100
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:48:59 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:59 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:59 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:59 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:59 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:59 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:59 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:59 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:48:59 +0100
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-03 11:48:59 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:49:00 +0100
+Started GET "/assets/roboto/Roboto-Regular.woff2" for 127.0.0.1 at 2017-07-03 11:49:02 +0100
+Started GET "/assets/roboto/Roboto-Regular.woff" for 127.0.0.1 at 2017-07-03 11:49:02 +0100
+Started DELETE "/logout" for 127.0.0.1 at 2017-07-03 11:49:02 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"PPhUEPEqh7toDwTXvYldSopBsRen8mTHDfK+ybrKchpnZKi6R3drWXADiZgJqhRbO5Znl0+3uxLZcRfyw2EmZg=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-03 11:49:02 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 88ms (Views: 84.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:49:02 +0100
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:49:02 +0100
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:49:02 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:49:02 +0100
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:49:02 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:49:02 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:49:02 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:49:02 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:49:02 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:49:02 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:49:02 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:49:02 +0100
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-03 11:49:02 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:49:02 +0100
+Started GET "/login" for 127.0.0.1 at 2017-07-03 11:49:04 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (54.4ms)
+Completed 200 OK in 139ms (Views: 134.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:49:05 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:49:05 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:49:05 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:49:05 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:49:05 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:49:05 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:49:05 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:49:05 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:49:05 +0100
+Started GET "/login" for 127.0.0.1 at 2017-07-03 11:51:01 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (230.2ms)
+Completed 200 OK in 310ms (Views: 307.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:51:02 +0100
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:51:02 +0100
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:51:02 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:51:02 +0100
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-03 11:51:02 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:51:02 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:51:02 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:51:02 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:51:02 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:51:02 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:51:02 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:51:02 +0100
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-03 11:51:02 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:51:02 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-03 11:51:02 +0100
+Started GET "/assets/roboto/Roboto-Regular.woff2" for 127.0.0.1 at 2017-07-03 11:52:31 +0100
+Started GET "/login" for 127.0.0.1 at 2017-07-03 12:14:43 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 182ms (Views: 177.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-03 12:14:43 +0100
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-03 12:14:43 +0100
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-03 12:14:43 +0100
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-03 12:14:43 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-03 12:14:43 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-03 12:14:43 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-03 12:14:43 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 12:14:44 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-03 12:14:44 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-03 12:14:44 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-03 12:14:44 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-03 12:14:44 +0100
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-03 12:14:44 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 12:14:44 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-03 12:14:44 +0100

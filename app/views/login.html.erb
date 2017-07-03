@@ -1,33 +1,21 @@
-<!DOCTYPE html>
-<html >
-<head>
-  <meta charset="UTF-8">
-  <title>Login/Registration Form Transition</title>
-  
-  
-  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans'>
-<%= stylesheet_link_tag "style" %>
-<%= javascript_include_tag "index" %>
-<%= csrf_meta_tags %>
-</head>
-
-<body>
-  <p class="tip">IIT Mandi QnA Portal</p>
+<p class="tip">Click on button in image container</p>
 <div class="cont">
   <div class="form sign-in">
     <h2>Welcome back,</h2>
-    <label>
      <%= form_tag("/create_session", method: :get) do %>
-          <span>Username</span>
-          <%= text_field_tag(:username) %><br>
-          <span>Password</span>
-          <%= password_field_tag(:password) %><br>
+          <label>
+            <span>Username</span>
+            <%= email_field_tag(:username) %><br>
+          </label>
+          <label>
+            <span>Password</span>
+            <%= password_field_tag(:password) %><br>
           </label>
     <%= submit_tag 'Login', class: "submit" %>
   <% end %>
-    <!--<p class="forgot-pass">Forgot password?</p>
-    <button type="button" class="submit">Sign In</button>
-    <button type="button" class="fb-btn">Connect with <span>facebook</span></button>-->
+    <p class="forgot-pass">Forgot password?</p>
+    <button type="button" class="submit">Login</button>
+    <button type="button" class="fb-btn">Connect with <span>facebook</span></button>
   </div>
   <div class="sub-cont">
     <div class="img">
@@ -37,9 +25,10 @@
       </div>
       <div class="img__text m--in">
         <h2>One of us?</h2>
-        <p>If you already have an account, just sign in. We've missed you!</p>
+        <p>If you already has an account, just sign in. We've missed you!</p>
       </div>
       <div class="img__btn">
+        <span class="m--up">Sign Up</span>
         <span class="m--in">Login</span>
       </div>
     </div>
@@ -69,5 +58,4 @@
 <a href="https://twitter.com/NikolayTalanov" target="_blank" class="icon-link icon-link--twitter">
   <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png">
 </a>
-</body>
-</html>
+

@@ -9,7 +9,7 @@ body {
   background: #ededed;
 }
 
-input, button {
+input, button, .submit {
   border: none;
   outline: none;
   background: none;
@@ -61,7 +61,7 @@ input, button {
           transform: translate3d(-640px, 0, 0);
 }
 
-button {
+button, .submit {
   display: block;
   margin: 0 auto;
   width: 260px;
