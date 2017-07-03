@@ -40,25 +40,43 @@
         <p>If you already have an account, just sign in. We've missed you!</p>
       </div>
       <div class="img__btn">
+        <span class="m--up">Sign Up</span>
         <span class="m--in">Login</span>
       </div>
     </div>
     <div class="form sign-up">
       <h2>Time to feel like home,</h2>
+      
+      <%= form_for(@user, url: {action: :create, controller: :users}, method: :post) do |f| %>
       <label>
-        <span>Name</span>
-        <input type="text" />
+        <span>First Name</span>
+        <%= f.text_field :firstname %><br>
+      </label>
+      <label>
+        <span>Last Name</span>
+        <%= f.text_field :lastname %><br>
       </label>
       <label>
         <span>Email</span>
-        <input type="email" />
+        <%= f.text_field :email %><br>
+      </label>
+      <label>
+        <span>Username</span>
+        <%= f.text_field :username %><br>
       </label>
       <label>
         <span>Password</span>
-        <input type="password" />
+        <%= f.password_field :password %><br>
       </label>
+      <label>
+        <span>Confirm Password</span>
+        <%= f.password_field :password_confirmation %><br>
+      </label>
+      <%= f.submit "Signup Now" , class: "submit" %>
+      <% end %>
+      <!--
       <button type="button" class="submit">Sign Up</button>
-      <button type="button" class="fb-btn">Join with <span>facebook</span></button>
+      <button type="button" class="fb-btn">Join with <span>facebook</span></button>-->
     </div>
   </div>
 </div>

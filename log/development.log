@@ -2813,3 +2813,491 @@ Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-03 12:
 Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-03 12:14:44 +0100
 Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 12:14:44 +0100
 Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-03 12:14:44 +0100
+Started GET "/login" for 127.0.0.1 at 2017-07-03 15:58:28 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (250.0ms)
+Completed 200 OK in 1091ms (Views: 1036.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-03 15:58:31 +0100
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-03 15:58:31 +0100
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-03 15:58:31 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-03 15:58:31 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 15:58:31 +0100
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-03 15:58:31 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-03 15:58:31 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 15:58:31 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-03 15:58:31 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-03 15:58:31 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-03 15:58:31 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-03 15:58:31 +0100
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-03 15:58:31 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-03 15:58:31 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-03 15:58:31 +0100
+Started GET "/login" for 127.0.0.1 at 2017-07-03 15:59:16 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 97ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-03 15:59:16 +0100
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-03 15:59:16 +0100
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-03 15:59:16 +0100
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-03 15:59:16 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-03 15:59:16 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-03 15:59:16 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 15:59:16 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 15:59:16 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-03 15:59:16 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-03 15:59:16 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-03 15:59:16 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-03 15:59:16 +0100
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-03 15:59:16 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-03 15:59:16 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-03 15:59:16 +0100
+Started GET "/login" for 127.0.0.1 at 2017-07-03 16:32:38 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/media/lenovo/IIT Mandi/PC Projects/QAengine/QAengine/app/views/sessions/login.html.erb:91: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/sessions/login.html.erb:91: syntax error, unexpected keyword_ensure, expecting keyword_end
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (36.2ms)
+Started POST "/__web_console/repl_sessions/cdd2dcf9bc2fe02c57b0f0fc40a6ed55/trace" for 127.0.0.1 at 2017-07-03 16:32:51 +0100
+Started GET "/login" for 127.0.0.1 at 2017-07-03 16:34:04 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/media/lenovo/IIT Mandi/PC Projects/QAengine/QAengine/app/views/sessions/login.html.erb:91: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/sessions/login.html.erb:91: syntax error, unexpected keyword_ensure, expecting keyword_end
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.2ms)
+Started GET "/login" for 127.0.0.1 at 2017-07-03 16:34:06 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/media/lenovo/IIT Mandi/PC Projects/QAengine/QAengine/app/views/sessions/login.html.erb:91: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/sessions/login.html.erb:91: syntax error, unexpected keyword_ensure, expecting keyword_end
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.0ms)
+Started GET "/login" for 127.0.0.1 at 2017-07-03 16:34:07 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/media/lenovo/IIT Mandi/PC Projects/QAengine/QAengine/app/views/sessions/login.html.erb:91: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/sessions/login.html.erb:91: syntax error, unexpected keyword_ensure, expecting keyword_end
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.8ms)
+Started GET "/login" for 127.0.0.1 at 2017-07-03 16:34:08 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/media/lenovo/IIT Mandi/PC Projects/QAengine/QAengine/app/views/sessions/login.html.erb:91: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/sessions/login.html.erb:91: syntax error, unexpected keyword_ensure, expecting keyword_end
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.4ms)
+Started GET "/login" for 127.0.0.1 at 2017-07-03 16:34:09 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/media/lenovo/IIT Mandi/PC Projects/QAengine/QAengine/app/views/sessions/login.html.erb:91: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/sessions/login.html.erb:91: syntax error, unexpected keyword_ensure, expecting keyword_end
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.6ms)
+Started GET "/login" for 127.0.0.1 at 2017-07-03 16:34:10 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/media/lenovo/IIT Mandi/PC Projects/QAengine/QAengine/app/views/sessions/login.html.erb:91: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/sessions/login.html.erb:91: syntax error, unexpected keyword_ensure, expecting keyword_end
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.9ms)
+Started GET "/login" for 127.0.0.1 at 2017-07-03 16:34:11 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/media/lenovo/IIT Mandi/PC Projects/QAengine/QAengine/app/views/sessions/login.html.erb:91: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/sessions/login.html.erb:91: syntax error, unexpected keyword_ensure, expecting keyword_end
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.6ms)
+Started POST "/__web_console/repl_sessions/1e1886028c34d31363b3270f7e7c8b13/trace" for 127.0.0.1 at 2017-07-03 16:34:18 +0100
+Started POST "/__web_console/repl_sessions/1e1886028c34d31363b3270f7e7c8b13/trace" for 127.0.0.1 at 2017-07-03 16:34:19 +0100
+Started POST "/__web_console/repl_sessions/1e1886028c34d31363b3270f7e7c8b13/trace" for 127.0.0.1 at 2017-07-03 16:34:19 +0100
+Started POST "/__web_console/repl_sessions/1e1886028c34d31363b3270f7e7c8b13/trace" for 127.0.0.1 at 2017-07-03 16:34:19 +0100
+Started POST "/__web_console/repl_sessions/1e1886028c34d31363b3270f7e7c8b13/trace" for 127.0.0.1 at 2017-07-03 16:34:19 +0100
+Started POST "/__web_console/repl_sessions/1e1886028c34d31363b3270f7e7c8b13/trace" for 127.0.0.1 at 2017-07-03 16:34:19 +0100
+Started GET "/login" for 127.0.0.1 at 2017-07-03 16:34:38 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/media/lenovo/IIT Mandi/PC Projects/QAengine/QAengine/app/views/sessions/login.html.erb:89: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/sessions/login.html.erb:89: syntax error, unexpected keyword_ensure, expecting keyword_end
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.6ms)
+Started GET "/login" for 127.0.0.1 at 2017-07-03 16:34:57 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/media/lenovo/IIT Mandi/PC Projects/QAengine/QAengine/app/views/sessions/login.html.erb:89: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/sessions/login.html.erb:89: syntax error, unexpected keyword_ensure, expecting keyword_end
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.4ms)
+Started GET "/login" for 127.0.0.1 at 2017-07-03 16:34:58 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/media/lenovo/IIT Mandi/PC Projects/QAengine/QAengine/app/views/sessions/login.html.erb:89: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/sessions/login.html.erb:89: syntax error, unexpected keyword_ensure, expecting keyword_end
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.9ms)
+Started GET "/login" for 127.0.0.1 at 2017-07-03 16:35:14 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 88ms (Views: 85.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-03 16:35:14 +0100
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-03 16:35:14 +0100
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-03 16:35:14 +0100
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-03 16:35:14 +0100
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-03 16:35:14 +0100
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-03 16:35:14 +0100
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 16:35:14 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-03 16:35:14 +0100
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-03 16:35:14 +0100
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-03 16:35:14 +0100
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-03 16:35:14 +0100
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-03 16:35:14 +0100
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-03 16:35:15 +0100
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-03 16:35:15 +0100
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-03 16:35:15 +0100
+Started GET "/login" for 127.0.0.1 at 2017-07-03 16:35:58 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (13.0ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    46:     </div>
+    47:     <div class="form sign-up">
+    48:       <h2>Time to feel like home,</h2>
+    49:       <%= form_for(@user, url: {action: :create, controller: :users}, method: :post) do |f| %>
+    50:       <label>
+    51:         <span>First Name</span>
+    52:         <%= f.text_field :firstname %><br>
+  
+app/views/sessions/login.html.erb:49:in `_app_views_sessions_login_html_erb__1432403257302452062_70168335303560'
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.1ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (51.7ms)
+Started GET "/login" for 127.0.0.1 at 2017-07-03 16:41:04 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (174.3ms)
+Completed 500 Internal Server Error in 185ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x00000002e90780>:0x007fa2ae1fec00>):
+    50:       <%= form_tag("/newuser", method: :post) do %>
+    51:       <label>
+    52:         <span>First Name</span>
+    53:         <%= f.text_field :firstname %><br>
+    54:       </label>
+    55:       <label>
+    56:         <span>Last Name</span>
+  
+app/views/sessions/login.html.erb:53:in `block in _app_views_sessions_login_html_erb__1432403257302452062_70168341379780'
+app/views/sessions/login.html.erb:50:in `_app_views_sessions_login_html_erb__1432403257302452062_70168341379780'
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (18.1ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.2ms)
+Started GET "/login" for 127.0.0.1 at 2017-07-03 16:41:25 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (13.2ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    47:     <div class="form sign-up">
+    48:       <h2>Time to feel like home,</h2>
+    49:       
+    50:       <%= form_for(@user, url: {action: :create, controller: :users}, method: :post) do |f| %>
+    51:       <label>
+    52:         <span>First Name</span>
+    53:         <%= f.text_field :firstname %><br>
+  
+app/views/sessions/login.html.erb:50:in `_app_views_sessions_login_html_erb__1432403257302452062_70168343314240'
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.2ms)
+Started GET "/login" for 127.0.0.1 at 2017-07-03 16:44:03 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (17.3ms)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    47:     <div class="form sign-up">
+    48:       <h2>Time to feel like home,</h2>
+    49:       
+    50:       <%= form_for(@user, url: {action: :create, controller: :users}, method: :post) do |f| %>
+    51:       <label>
+    52:         <span>First Name</span>
+    53:         <%= f.text_field :firstname %><br>
+  
+app/views/sessions/login.html.erb:50:in `_app_views_sessions_login_html_erb__1432403257302452062_70168343077260'
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.9ms)
+Started GET "/login" for 127.0.0.1 at 2017-07-03 16:44:05 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (11.3ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    47:     <div class="form sign-up">
+    48:       <h2>Time to feel like home,</h2>
+    49:       
+    50:       <%= form_for(@user, url: {action: :create, controller: :users}, method: :post) do |f| %>
+    51:       <label>
+    52:         <span>First Name</span>
+    53:         <%= f.text_field :firstname %><br>
+  
+app/views/sessions/login.html.erb:50:in `_app_views_sessions_login_html_erb__1432403257302452062_70168338117780'
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.0ms)
+Started GET "/login" for 127.0.0.1 at 2017-07-03 16:44:05 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (22.8ms)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    47:     <div class="form sign-up">
+    48:       <h2>Time to feel like home,</h2>
+    49:       
+    50:       <%= form_for(@user, url: {action: :create, controller: :users}, method: :post) do |f| %>
+    51:       <label>
+    52:         <span>First Name</span>
+    53:         <%= f.text_field :firstname %><br>
+  
+app/views/sessions/login.html.erb:50:in `_app_views_sessions_login_html_erb__1432403257302452062_70168222997540'
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.7ms)
+Started GET "/login" for 127.0.0.1 at 2017-07-03 16:44:05 +0100
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (11.3ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    47:     <div class="form sign-up">
+    48:       <h2>Time to feel like home,</h2>
+    49:       
+    50:       <%= form_for(@user, url: {action: :create, controller: :users}, method: :post) do |f| %>
+    51:       <label>
+    52:         <span>First Name</span>
+    53:         <%= f.text_field :firstname %><br>
+  
+app/views/sessions/login.html.erb:50:in `_app_views_sessions_login_html_erb__1432403257302452062_70168343083060'
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/lenovo/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.6ms)
