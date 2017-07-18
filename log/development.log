@@ -4485,3 +4485,1773 @@ Completed 200 OK in 115ms (Views: 111.5ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-04 09:21:09 +0100
+Started GET "/" for 127.0.0.1 at 2017-07-04 13:25:15 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (27.2ms)
+Completed 200 OK in 4878ms (Views: 4852.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-04 13:25:20 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-04 13:25:20 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-04 13:25:20 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-04 13:25:20 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-04 13:25:20 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-04 13:25:20 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-04 13:25:20 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-04 13:25:20 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-04 13:25:20 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-04 13:25:20 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-04 13:25:20 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-04 13:25:20 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-04 13:25:21 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-04 13:25:21 +0530
+Started GET "/login" for 127.0.0.1 at 2017-07-04 13:25:23 +0530
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (39.8ms)
+Completed 200 OK in 85ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-04 13:25:24 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-04 13:25:24 +0530
+Started POST "/newuser" for 127.0.0.1 at 2017-07-04 13:26:00 +0530
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5AoCercFKvkSv7mrXb/LQ0BlT/lOb2gEWI3wq4MK5TnrNzf5WHGocqjXuzo7kCbFFi0x2E84lLv/KA9AhR50TQ==", "user"=>{"firstname"=>"Ankit", "lastname"=>"Amrit ", "email"=>"ankitmaritraj@gmail.com", "username"=>"ankitamritraj", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Signup Now"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("firstname", "lastname", "username", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["firstname", "Ankit"], ["lastname", "Amrit "], ["username", "ankitamritraj"], ["email", "ankitmaritraj@gmail.com"], ["password_digest", "$2a$10$Cxw8JAd0UJaIRF8x/SYLH.PWWnPq0xjj9o.inUkCLZGIAXJPw.Qxa"], ["created_at", "2017-07-04 07:56:00.512449"], ["updated_at", "2017-07-04 07:56:00.512449"]]
+  [1m[35m (65.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 179ms (ActiveRecord: 66.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 13:26:00 +0530
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 99ms (Views: 92.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-04 13:26:00 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-04 13:26:00 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-04 13:26:00 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-04 13:26:00 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-04 13:26:00 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-04 13:26:00 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-04 13:26:00 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-04 13:26:00 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-04 13:26:00 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-04 13:26:00 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-04 13:26:00 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-04 13:26:00 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-04 13:26:01 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-04 13:26:01 +0530
+Started GET "/" for 127.0.0.1 at 2017-07-18 10:44:41 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 541ms (Views: 512.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 10:44:42 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 10:44:42 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 10:44:42 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:44:42 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:44:42 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 10:44:42 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:44:42 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:44:42 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:44:42 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:44:42 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:44:42 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:44:42 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:44:42 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 10:44:42 +0530
+Started GET "/assets/roboto/Roboto-Regular.woff2" for 127.0.0.1 at 2017-07-18 10:44:47 +0530
+Started DELETE "/logout" for 127.0.0.1 at 2017-07-18 10:44:47 +0530
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"i25v8caV/m4FeX0/opKHAkayUpvDBDBKdBynffn0Gtp68BFBG0335+5HbFrW8rU6Iyv0vW88EjsFcDIFPzeGpQ=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 10:44:47 +0530
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 89ms (Views: 83.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 10:44:47 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 10:44:47 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 10:44:47 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:44:47 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:44:47 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:44:47 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:44:47 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:44:47 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:44:47 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:44:47 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:44:47 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:44:47 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 10:44:48 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 10:44:48 +0530
+Started GET "/login" for 127.0.0.1 at 2017-07-18 10:44:54 +0530
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (50.4ms)
+Completed 200 OK in 98ms (Views: 96.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 10:44:54 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:44:54 +0530
+Started GET "/create_session?utf8=%E2%9C%93&username=ankitamritraj&password=[FILTERED]&commit=Login" for 127.0.0.1 at 2017-07-18 10:45:14 +0530
+Processing by SessionsController#create_session as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"ankitamritraj", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "ankitamritraj"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 120ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 10:45:14 +0530
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 39ms (Views: 36.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 10:45:14 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 10:45:14 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 10:45:14 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 10:45:14 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:45:14 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:45:14 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:45:14 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:45:14 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:45:14 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:45:14 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:45:14 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:45:14 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 10:45:14 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 10:45:14 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreatePosts (20170718051712)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (3.3ms)[0m  [1m[35mCREATE TABLE "posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "content" varchar, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE  INDEX "index_posts_on_user_id" ON "posts" ("user_id")[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170718051712"]]
+  [1m[35m (112.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_posts_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_posts_on_user_id' AND type='index'
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to Updatecontentdatatype (20170718055746)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TEMPORARY TABLE "aposts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "content" varchar, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_posts_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_posts_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_aposts_on_user_id" ON "aposts" ("user_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "aposts" ("id","content","user_id","created_at","updated_at")
+                     SELECT "id","content","user_id","created_at","updated_at" FROM "posts"[0m
+  [1m[35m (1.1ms)[0m  [1m[35mDROP TABLE "posts"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "content" text, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_aposts_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_aposts_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_posts_on_user_id" ON "posts" ("user_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "posts" ("id","content","user_id","created_at","updated_at")
+                     SELECT "id","content","user_id","created_at","updated_at" FROM "aposts"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "aposts"[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170718055746"]]
+  [1m[35m (110.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_posts_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_posts_on_user_id' AND type='index'
+[0m
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:03:01 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 500 Internal Server Error in 146ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `logged_in?' for #<UsersController:0x007f1b70305dd0>
+Did you mean?  log_in):
+  
+app/controllers/users_controller.rb:4:in `index'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.7ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (94.1ms)
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:04:18 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Completed 500 Internal Server Error in 100ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `logged_in?' for #<UsersController:0x007f1b750a6ff8>
+Did you mean?  logger):
+  
+app/controllers/users_controller.rb:4:in `index'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.8ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (98.0ms)
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:04:49 +0530
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `posts' for #<Hash:0x007f1b711514c0>):
+  
+app/controllers/users_controller.rb:4:in `index'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.8ms)
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:05:32 +0530
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `id' for #<Hash:0x007f1b5c004280>):
+  
+app/controllers/users_controller.rb:4:in `index'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.4ms)
+Started PUT "/__web_console/repl_sessions/31f9c439d3b164e9b131e6ec9404d0e7" for 127.0.0.1 at 2017-07-18 13:05:39 +0530
+Started PUT "/__web_console/repl_sessions/31f9c439d3b164e9b131e6ec9404d0e7" for 127.0.0.1 at 2017-07-18 13:05:41 +0530
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:05:54 +0530
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `posts' for 5:Integer):
+  
+app/controllers/users_controller.rb:4:in `index'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddingIndex (20170718073918)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_posts_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_posts_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE  INDEX "index_posts_on_user_id_and_created_at" ON "posts" ("user_id", "created_at")[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170718073918"]]
+  [1m[35m (142.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_posts_on_user_id_and_created_at' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_posts_on_user_id_and_created_at' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_posts_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_posts_on_user_id' AND type='index'
+[0m
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:10:34 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `posts' for 5:Integer):
+  
+app/controllers/users_controller.rb:4:in `index'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.7ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.3ms)
+Started PUT "/__web_console/repl_sessions/799310ce2b72e80a9eca455eabfb2051" for 127.0.0.1 at 2017-07-18 13:21:25 +0530
+Started PUT "/__web_console/repl_sessions/799310ce2b72e80a9eca455eabfb2051" for 127.0.0.1 at 2017-07-18 13:21:26 +0530
+Started PUT "/__web_console/repl_sessions/799310ce2b72e80a9eca455eabfb2051" for 127.0.0.1 at 2017-07-18 13:21:29 +0530
+Started PUT "/__web_console/repl_sessions/799310ce2b72e80a9eca455eabfb2051" for 127.0.0.1 at 2017-07-18 13:21:36 +0530
+Started PUT "/__web_console/repl_sessions/799310ce2b72e80a9eca455eabfb2051" for 127.0.0.1 at 2017-07-18 13:21:37 +0530
+Started PUT "/__web_console/repl_sessions/799310ce2b72e80a9eca455eabfb2051" for 127.0.0.1 at 2017-07-18 13:21:39 +0530
+Started PUT "/__web_console/repl_sessions/799310ce2b72e80a9eca455eabfb2051" for 127.0.0.1 at 2017-07-18 13:21:40 +0530
+Started PUT "/__web_console/repl_sessions/799310ce2b72e80a9eca455eabfb2051" for 127.0.0.1 at 2017-07-18 13:21:42 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (108.3ms)[0m  [1m[35mCREATE TABLE "posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "content" text, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (153.3ms)[0m  [1m[35mCREATE  INDEX "index_posts_on_user_id_and_created_at" ON "posts" ("user_id", "created_at")[0m
+  [1m[35m (0.5ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_posts_on_user_id_and_created_at' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_posts_on_user_id_and_created_at' AND type='index'
+[0m
+  [1m[35m (141.3ms)[0m  [1m[35mCREATE  INDEX "index_posts_on_user_id" ON "posts" ("user_id")[0m
+  [1m[35m (152.6ms)[0m  [1m[35mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "firstname" varchar, "lastname" varchar, "username" varchar, "email" varchar, "password_digest" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (109.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (78.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20170718073918)[0m
+  [1m[35m (251.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20170718055746),
+(20170718051712),
+(20170619121944);
+
+[0m
+  [1m[35m (103.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-07-18 08:05:17.575124"], ["updated_at", "2017-07-18 08:05:17.575124"]]
+  [1m[35m (84.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (106.3ms)[0m  [1m[35mCREATE TABLE "posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "content" text, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (109.5ms)[0m  [1m[35mCREATE  INDEX "index_posts_on_user_id_and_created_at" ON "posts" ("user_id", "created_at")[0m
+  [1m[35m (0.4ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_posts_on_user_id_and_created_at' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_posts_on_user_id_and_created_at' AND type='index'
+[0m
+  [1m[35m (106.8ms)[0m  [1m[35mCREATE  INDEX "index_posts_on_user_id" ON "posts" ("user_id")[0m
+  [1m[35m (99.9ms)[0m  [1m[35mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "firstname" varchar, "lastname" varchar, "username" varchar, "email" varchar, "password_digest" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (107.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (68.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20170718073918)[0m
+  [1m[35m (110.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20170718055746),
+(20170718051712),
+(20170619121944);
+
+[0m
+  [1m[35m (129.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-07-18 08:05:18.538187"], ["updated_at", "2017-07-18 08:05:18.538187"]]
+  [1m[35m (117.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_posts_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_posts_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_posts_on_user_id_and_created_at' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_posts_on_user_id_and_created_at' AND type='index'
+[0m
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:35:44 +0530
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `posts' for 5:Integer):
+  
+app/controllers/users_controller.rb:4:in `index'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.2ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.8ms)
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:35:49 +0530
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `posts' for 5:Integer):
+  
+app/controllers/users_controller.rb:4:in `index'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.3ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.4ms)
+Started GET "/signup" for 127.0.0.1 at 2017-07-18 13:35:57 +0530
+Processing by UsersController#signup as HTML
+  Rendering users/signup.html.erb within layouts/application
+  Rendered users/signup.html.erb within layouts/application (288.2ms)
+Completed 200 OK in 670ms (Views: 657.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:35:58 +0530
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:35:58 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:35:58 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:35:58 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:35:58 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:35:58 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:35:58 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:35:58 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:35:58 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:35:58 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:35:58 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:35:58 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:35:58 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:35:58 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 13:35:58 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:35:58 +0530
+Started GET "/login" for 127.0.0.1 at 2017-07-18 13:36:06 +0530
+Processing by SessionsController#login as HTML
+  Rendering sessions/login.html.erb within layouts/application
+  Rendered sessions/login.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 101ms (Views: 98.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:36:06 +0530
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:36:06 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:36:06 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:36:06 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:36:06 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:36:06 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:36:06 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:36:06 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:36:06 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:36:06 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:36:06 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:36:06 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:36:06 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:36:06 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 13:36:06 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:36:06 +0530
+Started POST "/newuser" for 127.0.0.1 at 2017-07-18 13:36:34 +0530
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GOfWUgQE8wOhW7WMYUCcRT+e6JXJh0g7XQEzrl/zro3peaji2dz6ikplpOkVIK59WgdOs2W/akosbabWmTAy8g==", "user"=>{"firstname"=>"Ankit", "lastname"=>"Amrit Raj", "email"=>"ankitamritra@gmail.com", "username"=>"ankitamritraj", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Signup Now"}
+  [1m[35m (0.7ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "users" ("firstname", "lastname", "username", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["firstname", "Ankit"], ["lastname", "Amrit Raj"], ["username", "ankitamritraj"], ["email", "ankitamritra@gmail.com"], ["password_digest", "$2a$10$cbm7wlYbM8DN1cKDGoYFEedp2a/5FhR9k6GZJIgJ1PGMnZX/Kytqa"], ["created_at", "2017-07-18 08:06:34.435141"], ["updated_at", "2017-07-18 08:06:34.435141"]]
+  [1m[35m (118.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 202ms (ActiveRecord: 119.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:36:34 +0530
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `posts' for 1:Integer):
+  
+app/controllers/users_controller.rb:4:in `index'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.9ms)
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:36:54 +0530
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `posts' for #<Hash:0x007fe1482a5950>):
+  
+app/controllers/users_controller.rb:4:in `index'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.6ms)
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:37:05 +0530
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `post' for #<Hash:0x007fe141486eb0>):
+  
+app/controllers/users_controller.rb:4:in `index'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.9ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.1ms)
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 1]]
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:39:57 +0530
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `post' for #<Hash:0x007fe141d595d8>):
+  
+app/controllers/users_controller.rb:4:in `index'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.6ms)
+Started PUT "/__web_console/repl_sessions/7f0261c4d52d93999d9042189e4df9c1" for 127.0.0.1 at 2017-07-18 13:40:02 +0530
+Started PUT "/__web_console/repl_sessions/7f0261c4d52d93999d9042189e4df9c1" for 127.0.0.1 at 2017-07-18 13:40:02 +0530
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:41:31 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.7ms)
+
+
+  
+NoMethodError (undefined method `post' for nil:NilClass):
+  
+app/controllers/users_controller.rb:4:in `index'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.8ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.3ms)
+Started PUT "/__web_console/repl_sessions/f8db6f6c74e851f9f233aea70be67e7c" for 127.0.0.1 at 2017-07-18 13:41:34 +0530
+Started PUT "/__web_console/repl_sessions/f8db6f6c74e851f9f233aea70be67e7c" for 127.0.0.1 at 2017-07-18 13:41:35 +0530
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started PUT "/__web_console/repl_sessions/f8db6f6c74e851f9f233aea70be67e7c" for 127.0.0.1 at 2017-07-18 13:41:41 +0530
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:42:15 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.4ms)
+
+
+  
+NoMethodError (undefined method `post' for nil:NilClass):
+  
+app/controllers/users_controller.rb:4:in `index'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.7ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.4ms)
+Started PUT "/__web_console/repl_sessions/5ee19de6cd98a4cd675d1343a46a52d1" for 127.0.0.1 at 2017-07-18 13:42:22 +0530
+Started PUT "/__web_console/repl_sessions/5ee19de6cd98a4cd675d1343a46a52d1" for 127.0.0.1 at 2017-07-18 13:42:23 +0530
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Started PUT "/__web_console/repl_sessions/5ee19de6cd98a4cd675d1343a46a52d1" for 127.0.0.1 at 2017-07-18 13:42:30 +0530
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started PUT "/__web_console/repl_sessions/5ee19de6cd98a4cd675d1343a46a52d1" for 127.0.0.1 at 2017-07-18 13:43:52 +0530
+Started PUT "/__web_console/repl_sessions/5ee19de6cd98a4cd675d1343a46a52d1" for 127.0.0.1 at 2017-07-18 13:43:52 +0530
+Started PUT "/__web_console/repl_sessions/5ee19de6cd98a4cd675d1343a46a52d1" for 127.0.0.1 at 2017-07-18 13:43:52 +0530
+Started PUT "/__web_console/repl_sessions/5ee19de6cd98a4cd675d1343a46a52d1" for 127.0.0.1 at 2017-07-18 13:43:56 +0530
+Started PUT "/__web_console/repl_sessions/5ee19de6cd98a4cd675d1343a46a52d1" for 127.0.0.1 at 2017-07-18 13:44:02 +0530
+Started PUT "/__web_console/repl_sessions/5ee19de6cd98a4cd675d1343a46a52d1" for 127.0.0.1 at 2017-07-18 13:44:05 +0530
+Started PUT "/__web_console/repl_sessions/5ee19de6cd98a4cd675d1343a46a52d1" for 127.0.0.1 at 2017-07-18 13:44:11 +0530
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:44:19 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 2.5ms)
+
+
+  
+NoMethodError (undefined method `post' for #<User:0x007f73b0640458>
+Did you mean?  posts):
+  
+app/controllers/users_controller.rb:4:in `index'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.8ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.4ms)
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:44:34 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (125.8ms)
+Completed 500 Internal Server Error in 253ms (ActiveRecord: 5.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `posts_path' for #<#<Class:0x0000000296a508>:0x0000000295eb40>):
+     5: <% end %>
+     6: 
+     7: <% if logged_in? %>
+     8: 	<%= form_for(@post) do |f| %>
+     9: 			<%= f.text_area :content, placeholder: "Ask a question..." %>
+    10: 			<%= f.submit "post"%>
+    11: 	<% end %>
+  
+app/views/users/index.html.erb:8:in `_app_views_users_index_html_erb__1441236265140427340_21723300'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.8ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (28.7ms)
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:47:23 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 271ms (Views: 237.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:47:24 +0530
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:47:24 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:47:24 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:47:24 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:47:24 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:47:24 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:47:24 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:47:24 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:47:24 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:47:24 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:47:24 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:47:24 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:47:24 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:47:24 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:47:24 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 13:47:24 +0530
+Started GET "/assets/roboto/Roboto-Regular.woff2" for 127.0.0.1 at 2017-07-18 13:47:26 +0530
+Started POST "/create" for 127.0.0.1 at 2017-07-18 13:47:45 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"V7rod7DCTNJKh9TNakl7E195kQXW0/2jIImxgocbJtCmJJbHbRpFW6G5xageKUkrOuA3I3rr39JR5ST6Qdi6rw==", "post"=>{"content"=>"hello world"}, "commit"=>"post"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+No template found for PostsController#create, rendering head :no_content
+Completed 204 No Content in 27ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:48:10 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 111ms (Views: 104.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:48:10 +0530
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:48:10 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:48:10 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:48:10 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:48:10 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:48:10 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:48:10 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:48:10 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:48:10 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:48:10 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:48:10 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:48:10 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:48:10 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:48:10 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:48:11 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 13:48:11 +0530
+Started GET "/assets/roboto/Roboto-Regular.woff2" for 127.0.0.1 at 2017-07-18 13:48:12 +0530
+Started POST "/create" for 127.0.0.1 at 2017-07-18 13:48:24 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tSb/RolH/MdyL+n8fNpmr5GeKRXAkvqTgMj4MJPCEMpEuIH2VJ/1TpkR+JkIulSX9AePM2yq2OLxpG1IVQGMtQ==", "post"=>{"content"=>"haksldfjalksdjfk"}, "commit"=>"post"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+No template found for PostsController#create, rendering head :no_content
+Completed 204 No Content in 17ms (ActiveRecord: 0.3ms)
+
+
+  [1m[36mPost Load (2.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:49:29 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 119ms (Views: 60.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:49:29 +0530
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:49:29 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:49:29 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:49:29 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:49:29 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:49:29 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:49:29 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:49:29 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:49:29 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:49:29 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:49:29 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:49:29 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:49:29 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:49:29 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:49:29 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 13:49:29 +0530
+Started GET "/assets/roboto/Roboto-Regular.woff2" for 127.0.0.1 at 2017-07-18 13:49:31 +0530
+Started POST "/create" for 127.0.0.1 at 2017-07-18 13:49:33 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/iRtqhDMgOYzWWTnGm8Q5vRMknZZqvey6TPjPbTl1o4PuhMazRSJb9hndYJuDyLekdU0UPWS1cOYX3ZFciZK8Q==", "post"=>{"content"=>"hell owrld"}, "commit"=>"post"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+No template found for PostsController#create, rendering head :no_content
+Completed 204 No Content in 19370ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:53:57 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mPost Load (1.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered users/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 114ms (Views: 75.3ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:53:57 +0530
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:53:57 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:53:57 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:53:57 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:53:57 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 13:53:57 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:53:57 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:53:57 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:53:57 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:53:57 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:53:57 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:53:57 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:53:57 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:53:57 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 13:53:57 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 13:53:57 +0530
+Started GET "/assets/roboto/Roboto-Regular.woff2" for 127.0.0.1 at 2017-07-18 13:54:01 +0530
+Started POST "/create" for 127.0.0.1 at 2017-07-18 13:54:06 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"r3NCQKmf54gZqmSuJE6hMVWSEg0tWitQde5B9aqpAkhe7TzwdEfuAfKUdctQLpMJMAu0K4FiCSEEgtSNbGqeNw==", "post"=>{"content"=>"hey every one "}, "commit"=>"post"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO "posts" ("content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "hey every one "], ["user_id", 1], ["created_at", "2017-07-18 08:24:06.255757"], ["updated_at", "2017-07-18 08:24:06.255757"]]
+  [1m[35m (110.7ms)[0m  [1m[36mcommit transaction[0m
+Completed 500 Internal Server Error in 252ms (ActiveRecord: 112.4ms)
+
+
+  
+NoMethodError (undefined method `redirect' for #<PostsController:0x007f73c0429a10>
+Did you mean?  redirect_to):
+  
+app/controllers/posts_controller.rb:6:in `create'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.9ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (112.2ms)
+Started POST "/create" for 127.0.0.1 at 2017-07-18 13:54:23 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"r3NCQKmf54gZqmSuJE6hMVWSEg0tWitQde5B9aqpAkhe7TzwdEfuAfKUdctQLpMJMAu0K4FiCSEEgtSNbGqeNw==", "post"=>{"content"=>"hey every one "}, "commit"=>"post"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "hey every one "], ["user_id", 1], ["created_at", "2017-07-18 08:24:23.168787"], ["updated_at", "2017-07-18 08:24:23.168787"]]
+  [1m[35m (111.4ms)[0m  [1m[36mcommit transaction[0m
+Completed 500 Internal Server Error in 331ms (ActiveRecord: 113.9ms)
+
+
+  
+NoMethodError (undefined method `redirect' for #<PostsController:0x007f73b838e900>
+Did you mean?  redirect_to):
+  
+app/controllers/posts_controller.rb:6:in `create'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (95.9ms)
+Started POST "/create" for 127.0.0.1 at 2017-07-18 13:54:51 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"r3NCQKmf54gZqmSuJE6hMVWSEg0tWitQde5B9aqpAkhe7TzwdEfuAfKUdctQLpMJMAu0K4FiCSEEgtSNbGqeNw==", "post"=>{"content"=>"hey every one "}, "commit"=>"post"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "hey every one "], ["user_id", 1], ["created_at", "2017-07-18 08:24:51.357135"], ["updated_at", "2017-07-18 08:24:51.357135"]]
+  [1m[35m (119.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 169ms (ActiveRecord: 120.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 13:54:51 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/index.html.erb within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for #<User:0x007f73c00b6068>):
+    12: 	<% end %>
+    13: 
+    14: 	<% @posts.each do |p| %>
+    15: 		Name : <%= p.user.name %>
+    16: 		Content : <%= p.content%>
+    17: 	<% end %>
+    18: <% end %>
+  
+app/views/users/index.html.erb:15:in `block in _app_views_users_index_html_erb__1441236265140427340_70067559690100'
+app/views/users/index.html.erb:14:in `_app_views_users_index_html_erb__1441236265140427340_70067559690100'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.8ms)
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:10:19 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 62ms (Views: 59.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:10:19 +0530
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:10:19 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:10:19 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:10:19 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:10:19 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:10:19 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:10:19 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:10:19 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:10:19 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:10:19 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:10:19 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:10:19 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:10:19 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:10:19 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:10:19 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 14:10:19 +0530
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:10:46 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 47ms (Views: 42.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:10:46 +0530
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:10:46 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:10:46 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:10:46 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:10:46 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:10:46 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:10:46 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:10:46 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:10:46 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:10:46 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:10:46 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:10:46 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:10:46 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:10:46 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:10:46 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 14:10:46 +0530
+Started GET "/assets/roboto/Roboto-Regular.woff2" for 127.0.0.1 at 2017-07-18 14:11:05 +0530
+Started POST "/create" for 127.0.0.1 at 2017-07-18 14:11:14 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8pHjwruhdRd9AN4OpVc6cX5Q9dW9L2pk7l0fQ9/R7MoDD51yZnl8npY+z2vRNwhJG8lT8xEXSBWfMYo7GRJwtQ==", "post"=>{"content"=>"hell world hello world"}, "commit"=>"post"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "posts" ("content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "hell world hello world"], ["user_id", 1], ["created_at", "2017-07-18 08:41:14.630731"], ["updated_at", "2017-07-18 08:41:14.630731"]]
+  [1m[35m (79.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 97ms (ActiveRecord: 81.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:11:14 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 87ms (Views: 79.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:11:14 +0530
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:11:14 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:11:14 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:11:14 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:11:14 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:11:14 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:11:14 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:11:14 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:11:14 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:11:14 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:11:14 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:11:14 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:11:14 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:11:14 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:11:15 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 14:11:15 +0530
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:11:17 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 57ms (Views: 52.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:11:17 +0530
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:11:17 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:11:17 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:11:17 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:11:17 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:11:17 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:11:17 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:11:17 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:11:17 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:11:17 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:11:17 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:11:17 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:11:17 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:11:17 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 14:11:17 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:11:17 +0530
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:12:55 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 53ms (Views: 51.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:12:56 +0530
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:12:56 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:12:56 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:12:56 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:12:56 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:12:56 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:12:56 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:12:56 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:12:56 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:12:56 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:12:56 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:12:56 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:12:56 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:12:56 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:12:56 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 14:12:56 +0530
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:16:01 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 63ms (Views: 57.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:16:01 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:16:01 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:16:01 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:16:01 +0530
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:16:01 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:16:01 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:16:01 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:16:01 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:16:01 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:16:01 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:16:01 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:16:01 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:16:01 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:16:01 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:16:01 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 14:16:01 +0530
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:19:04 +0530
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `posts' for #<Hash:0x007f73a84085a8>):
+  
+app/controllers/users_controller.rb:4:in `index'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.8ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.8ms)
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:19:21 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 85ms (Views: 50.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:19:21 +0530
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:19:21 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:19:21 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:19:21 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:19:21 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:19:21 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:19:21 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:19:21 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:19:21 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:19:21 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:19:21 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:19:21 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:19:21 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:19:21 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:19:21 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 14:19:21 +0530
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:19:44 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/index.html.erb within layouts/application (50214.2ms)
+Completed 200 OK in 50278ms (Views: 50274.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:20:35 +0530
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:20:35 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:20:35 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:20:35 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:20:35 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:20:35 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:20:35 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:20:35 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:20:35 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:20:35 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:20:35 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:20:35 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:20:35 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:20:35 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:20:35 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 14:20:35 +0530
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:20:38 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/index.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `id' for #<Hash:0x007f73b09a3b40>):
+    15: 		Name : <%= p.user.firstname %>
+    16: 		Content : <%= p.content%>
+    17: 		<% byebug %>
+    18: 		<% if current_user.id == p.user.id %>
+    19: 	      <%= link_to "delete", micropost, method: :delete, data: { confirm: "You sure?" } %>
+    20: 	    <% end %>
+    21: 		<br><br>
+  
+app/views/users/index.html.erb:18:in `block in _app_views_users_index_html_erb__1441236265140427340_70067430155600'
+app/views/users/index.html.erb:14:in `_app_views_users_index_html_erb__1441236265140427340_70067430155600'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.5ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.3ms)
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:20:57 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mPost Load (1.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/index.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 93ms (Views: 88.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:20:57 +0530
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:20:57 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:20:57 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:20:57 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:20:57 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:20:57 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:20:57 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:20:57 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:20:57 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:20:57 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:20:57 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:20:57 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:20:57 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:20:57 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:20:57 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 14:20:57 +0530
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:21:11 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mCACHE (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/index.html.erb within layouts/application (27069.8ms)
+Completed 200 OK in 27149ms (Views: 27138.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:21:51 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/index.html.erb within layouts/application (4069.4ms)
+Completed 500 Internal Server Error in 4127ms (ActiveRecord: 1.4ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `micropost' for #<#<Class:0x007f98587b3958>:0x007f98587a7068>):
+    16: 		Content : <%= p.content%>
+    17: 		<% byebug %>
+    18: 		<% if current_user["id"] == p.user.id %>
+    19: 	      <%= link_to "delete", micropost, method: :delete, data: { confirm: "You sure?" } %>
+    20: 	    <% end %>
+    21: 		<br><br>
+    22: 	<% end %>
+  
+app/views/users/index.html.erb:19:in `block in _app_views_users_index_html_erb___814168023646515939_70146148132340'
+app/views/users/index.html.erb:14:in `_app_views_users_index_html_erb___814168023646515939_70146148132340'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (13.9ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (36.5ms)
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:23:00 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/index.html.erb within layouts/application (1176342.9ms)
+Completed 200 OK in 1176604ms (Views: 1176569.8ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:42:46 +0530
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:42:46 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:42:46 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:42:46 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:42:46 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:42:46 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:42:47 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:42:47 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:42:47 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:42:47 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:42:47 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:42:47 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:42:47 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:42:47 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:42:47 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 14:42:47 +0530
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:42:57 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 63ms (Views: 51.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:42:57 +0530
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:42:57 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:42:57 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:42:57 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:42:57 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:42:57 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:42:57 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:42:57 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:42:57 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:42:57 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:42:57 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:42:57 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:42:57 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:42:57 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:42:57 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 14:42:57 +0530
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:45:05 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 94ms (Views: 45.9ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:45:06 +0530
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:45:06 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:45:06 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:45:06 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:45:06 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:45:06 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:45:06 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:45:06 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:45:06 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:45:06 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:45:06 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:45:06 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:45:06 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:45:06 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:45:06 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 14:45:06 +0530
+Started GET "/assets/roboto/Roboto-Regular.woff2" for 127.0.0.1 at 2017-07-18 14:45:09 +0530
+Started DELETE "/destroyPost" for 127.0.0.1 at 2017-07-18 14:45:09 +0530
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"lN6vw/HmOu+83RZe6DxpJvnFjmsnGO66kvoLdslZ/qdlQNFzLD4zZlfjBzucXFsenFwoTYsgzMvjlp4OD5pi2A=="}
+No template found for PostsController#destroy, rendering head :no_content
+Completed 204 No Content in 47555ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:48:57 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 82ms (Views: 53.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:48:57 +0530
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:48:57 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:48:57 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:48:57 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:48:57 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:48:57 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:48:57 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:48:57 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:48:57 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:48:57 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:48:57 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:48:57 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:48:57 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:48:57 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:48:57 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 14:48:57 +0530
+Started GET "/assets/roboto/Roboto-Regular.woff2" for 127.0.0.1 at 2017-07-18 14:49:01 +0530
+Started DELETE "/destroyPost?id=1" for 127.0.0.1 at 2017-07-18 14:49:01 +0530
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"gY9KsRn7PvYV+Jgm62arYq8l53Z1uq2au+DIl1GGbZlwETQBxCM3f/7GiUOfBplayrxBUNmCj+vKjF3vl0Xx5g==", "id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPost Load (0.9ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."user_id" = ? AND (1) LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 16672ms (ActiveRecord: 1.4ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/posts_controller.rb:12:in `destroy'
+app/controllers/posts_controller.rb:16:in `destroy'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.8ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.9ms)
+Started DELETE "/destroyPost?id=1" for 127.0.0.1 at 2017-07-18 14:49:52 +0530
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"gY9KsRn7PvYV+Jgm62arYq8l53Z1uq2au+DIl1GGbZlwETQBxCM3f/7GiUOfBplayrxBUNmCj+vKjF3vl0Xx5g==", "id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."user_id" = ? AND (1) LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.3ms)[0m  [1m[31mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 1]]
+  [1m[35m (102.3ms)[0m  [1m[36mcommit transaction[0m
+No template found for PostsController#destroy, rendering head :no_content
+Completed 204 No Content in 15230ms (ActiveRecord: 107.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:50:22 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 88ms (Views: 48.2ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:50:22 +0530
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:50:22 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:50:22 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:50:22 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:50:22 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:22 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:22 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:22 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:22 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:22 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:22 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:22 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:22 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:22 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:22 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 14:50:22 +0530
+Started GET "/assets/roboto/Roboto-Regular.woff2" for 127.0.0.1 at 2017-07-18 14:50:26 +0530
+Started DELETE "/destroyPost?id=2" for 127.0.0.1 at 2017-07-18 14:50:26 +0530
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ANzhYqGsZ6oh1/90rreruVjhQ/I8+YabtL/T2DQDPZLxQp/SfHRuI8rp7hHa15mBPXjl1JDBpOrF00ag8sCh7Q==", "id"=>"2"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."user_id" = ? AND (2) LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.8ms)[0m  [1m[31mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 2]]
+  [1m[35m (112.2ms)[0m  [1m[36mcommit transaction[0m
+DEPRECATION WARNING: `redirect_to :back` is deprecated and will be removed from Rails 5.1. Please use `redirect_back(fallback_location: fallback_location)` where `fallback_location` represents the location to use if the request has no HTTP referer information. (called from destroy at /home/ankitamritraj/QAengine/app/controllers/posts_controller.rb:15)
+Redirected to http://localhost:3000/
+Completed 302 Found in 125ms (ActiveRecord: 115.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:50:26 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 62ms (Views: 55.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:50:26 +0530
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:50:26 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:50:26 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:50:26 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:26 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:26 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:26 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:26 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:26 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:26 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:26 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:26 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:26 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:26 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:50:26 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 14:50:26 +0530
+Started GET "/assets/roboto/Roboto-Regular.woff2" for 127.0.0.1 at 2017-07-18 14:50:28 +0530
+Started DELETE "/destroyPost?id=3" for 127.0.0.1 at 2017-07-18 14:50:28 +0530
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7HVuokB8Yfra8xTrfpNq81jBDlVnIGsna1HeIY8tQdkd6xASnaRoczHNBY4K81jLPVioc8sYSVYaPUtZSe7dpg==", "id"=>"3"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."user_id" = ? AND (3) LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 3]]
+  [1m[35m (232.7ms)[0m  [1m[36mcommit transaction[0m
+DEPRECATION WARNING: `redirect_to :back` is deprecated and will be removed from Rails 5.1. Please use `redirect_back(fallback_location: fallback_location)` where `fallback_location` represents the location to use if the request has no HTTP referer information. (called from destroy at /home/ankitamritraj/QAengine/app/controllers/posts_controller.rb:15)
+Redirected to http://localhost:3000/
+Completed 302 Found in 249ms (ActiveRecord: 233.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:50:29 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mPost Load (0.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mCACHE (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 104ms (Views: 90.5ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:50:29 +0530
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:50:29 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:50:29 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:29 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:50:29 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:50:29 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:29 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:29 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:29 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:29 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:29 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:29 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:29 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:29 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 14:50:29 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:29 +0530
+Started GET "/assets/roboto/Roboto-Regular.woff2" for 127.0.0.1 at 2017-07-18 14:50:30 +0530
+Started POST "/create" for 127.0.0.1 at 2017-07-18 14:50:35 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/dWQNW3D8ZPZF4gRPhY7ZjusfXdHJw0oSigZp6V8yt0MS+6FsBv4GjIpmXRKdgleXjXbUesfL1k7RIzfY79Wog==", "post"=>{"content"=>"this is a new post"}, "commit"=>"post"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "posts" ("content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "this is a new post"], ["user_id", 1], ["created_at", "2017-07-18 09:20:35.900706"], ["updated_at", "2017-07-18 09:20:35.900706"]]
+  [1m[35m (223.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 240ms (ActiveRecord: 224.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:50:36 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mCACHE (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/index.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 112ms (Views: 95.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:50:36 +0530
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:50:36 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:50:36 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:50:36 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:50:36 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:36 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:36 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:36 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:36 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:36 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:36 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:36 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:36 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:36 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 14:50:36 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:50:36 +0530
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:51:10 +0530
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/users_controller.rb:3:in `index'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.7ms)
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:51:26 +0530
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/users_controller.rb:3:in `index'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.1ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.1ms)
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:51:41 +0530
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/users_controller.rb:3:in `index'
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendering /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/ankitamritraj/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.2ms)
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:52:23 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 103ms (Views: 49.5ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:52:24 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:52:24 +0530
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:52:24 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:52:24 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:52:24 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:24 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:24 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:24 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:24 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:24 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:24 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:24 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:24 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:24 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:24 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 14:52:24 +0530
+Started GET "/assets/roboto/Roboto-Regular.woff2" for 127.0.0.1 at 2017-07-18 14:52:27 +0530
+Started POST "/create" for 127.0.0.1 at 2017-07-18 14:52:38 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"L6J6D1nIFn/uxNwqI+wf6HVrVZwbDVin6WKPFUVYTFXePAS/hBAf9gX6zU9XjC3QEPLzurc1etaYDhptg5vQKg==", "post"=>{"content"=>"first see the new posts\r\n"}, "commit"=>"post"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.7ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.2ms)[0m  [1m[32mINSERT INTO "posts" ("content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "first see the new posts\r\n"], ["user_id", 1], ["created_at", "2017-07-18 09:22:38.261676"], ["updated_at", "2017-07-18 09:22:38.261676"]]
+  [1m[35m (150.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 174ms (ActiveRecord: 154.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:52:38 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/index.html.erb within layouts/application (24.6ms)
+Completed 200 OK in 126ms (Views: 112.8ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:52:38 +0530
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:52:38 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:52:38 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:52:38 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:38 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:38 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:38 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:38 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:38 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:38 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:38 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:38 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:38 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:38 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:52:38 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 14:52:39 +0530
+Started GET "/assets/roboto/Roboto-Regular.woff2" for 127.0.0.1 at 2017-07-18 14:52:43 +0530
+Started POST "/create" for 127.0.0.1 at 2017-07-18 14:52:47 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Rc30U/98jWTiPBBbUtAsR90jMXtDGh1/4Ok4SACOadm0U4rjIqSE7QkCAT4msB5/uLqXXe8iPw6Rha0wxk31pg==", "post"=>{"content"=>"yayyayayayay"}, "commit"=>"post"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "yayyayayayay"], ["user_id", 1], ["created_at", "2017-07-18 09:22:47.276157"], ["updated_at", "2017-07-18 09:22:47.276157"]]
+  [1m[35m (78.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 87ms (ActiveRecord: 79.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-18 14:52:47 +0530
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 70ms (Views: 63.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/posts.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:52:47 +0530
+Started GET "/assets/sessions.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:52:47 +0530
+Started GET "/assets/style.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:52:47 +0530
+Started GET "/assets/users.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:52:47 +0530
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2017-07-18 14:52:47 +0530
+Started GET "/assets/jquery.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:47 +0530
+Started GET "/assets/action_cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:47 +0530
+Started GET "/assets/turbolinks.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:47 +0530
+Started GET "/assets/index.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:47 +0530
+Started GET "/assets/cable.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:47 +0530
+Started GET "/assets/posts.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:47 +0530
+Started GET "/assets/application.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:47 +0530
+Started GET "/assets/users.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:47 +0530
+Started GET "/assets/sessions.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:47 +0530
+Started GET "/assets/style.css" for 127.0.0.1 at 2017-07-18 14:52:47 +0530
+Started GET "/assets/jquery_ujs.self.js?body=1" for 127.0.0.1 at 2017-07-18 14:52:47 +0530

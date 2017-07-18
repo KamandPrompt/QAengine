@@ -4,12 +4,19 @@
 	<%= link_to "Login/Signup", login_path %>
 <% end %>
 
-<% if @users %>
-	<% @users.each do |u| %>
-		<p><%= u.firstname%></p>
-		<p><%= u.lastname%></p>
-		<p><%= u.username%></p>
-		<p><%= u.email%></p>
-		<p><%= u.password_digest%></p>
+
+<% if logged_in? %>
+	<%= form_for(@post, url: {controller: :posts, action: :create}) do |f| %>
+			<%= f.text_area :content, placeholder: "Ask a question..." %>
+			<%= f.submit "post"%>
+	<% end %>
+
+	<% @posts.each do |p| %>
+		Name : <%= p.user.firstname %>
+		Content : <%= p.content%>
+			<% if current_user["id"] == p.user.id %>
+	      <%= link_to "delete", {controller: :posts, action: :destroy, id: p.id}, method: :delete, data: { confirm: "You sure?" } %>
+	    <% end %>
+		<br><br>
 	<% end %>
 <% end %>

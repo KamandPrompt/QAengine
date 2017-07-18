@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   get "/login" => "sessions#login"
   get "/create_session" => "sessions#create_session"
   delete "/logout" => "sessions#destroy"
+  post "/create" => "posts#create"
+  delete "/destroyPost" => "posts#destroy"
 end

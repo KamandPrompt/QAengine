@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
 	def index
-		@users = User.all
+		@posts = Post.all.order("created_at" => "DESC")
+		@post = current_user.posts.build if logged_in?
 	end
 
 	def signup
