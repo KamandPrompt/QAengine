@@ -1,0 +1,6 @@
+<span><%= comment.user.firstname %> : </span>
+<span><%= comment.content %></span>
+<% if current_user["id"] == comment.user.id %>
+ 	<%= link_to "delete", {controller: :comments, action: :destroy, id: comment.id}, method: :delete, data: { confirm: "You sure?" } %>
+<% end %>
+<br>

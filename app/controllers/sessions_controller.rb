@@ -1,6 +1,5 @@
 class SessionsController < ApplicationController
 	def create_session
-		
 		@user = User.find_by(username: params[:username] )
 		
 		if @user && @user.authenticate(params[:password])
@@ -9,12 +8,17 @@ class SessionsController < ApplicationController
 			
 		else
 			puts "Wrong credentials! Enter Again "
-			render 'signup'
+			redirect_to :back
 		end	
 	end
 
 	def login
-		@user = User.new
+		if logged_in?
+			redirect_to current_user
+		else
+			@user = User.new
+		end
+
 	end
 
 

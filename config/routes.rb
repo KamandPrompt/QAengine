@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   root "users#index"
+  resources :users, only: [:show, :update, :edit]
   get "/signup" => "users#signup"
   post "/newuser"  => "users#create"
   get "/login" => "sessions#login"
@@ -8,4 +9,6 @@ Rails.application.routes.draw do
   delete "/logout" => "sessions#destroy"
   post "/create" => "posts#create"
   delete "/destroyPost" => "posts#destroy"
+  post "createComment" => "comments#create"
+  delete "/destroyComment" => "comments#destroy"
 end

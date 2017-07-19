@@ -72,6 +72,10 @@
         <span>Confirm Password</span>
         <%= f.password_field :password_confirmation %><br>
       </label>
+      <label>
+        <span>UPLOAD YOUR PIC</span>
+            <%= f.file_field(:profile_picture) %>
+      </label>
       <%= f.submit "Signup Now" , class: "submit" %>
       <% end %>
       <!--

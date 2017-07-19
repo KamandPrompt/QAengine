@@ -8,6 +8,6 @@ module ApplicationHelper
 	end
 
 	def current_user 
-  		return session[:user]
+	  	@current_user ||= User.find_by(id: session[:user]["id"])
 	end
 end

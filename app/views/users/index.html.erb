@@ -1,5 +1,6 @@
 <% if logged_in? %>
 	<%= link_to "Logout", logout_path, method: :delete %>
+	<%= link_to "profile",  current_user %>
 <% else %>
 	<%= link_to "Login/Signup", login_path %>
 <% end %>
@@ -7,16 +8,27 @@
 
 <% if logged_in? %>
 	<%= form_for(@post, url: {controller: :posts, action: :create}) do |f| %>
-			<%= f.text_area :content, placeholder: "Ask a question..." %>
-			<%= f.submit "post"%>
+		<%= f.text_area :content, placeholder: "Ask a question..." %>
+		<%= f.submit "post"%>
 	<% end %>
 
 	<% @posts.each do |p| %>
 		Name : <%= p.user.firstname %>
 		Content : <%= p.content%>
-			<% if current_user["id"] == p.user.id %>
-	      <%= link_to "delete", {controller: :posts, action: :destroy, id: p.id}, method: :delete, data: { confirm: "You sure?" } %>
-	    <% end %>
-		<br><br>
-	<% end %>
+		<% if current_user["id"] == p.user.id %>
+		 	<%= link_to "delete", {controller: :posts, action: :destroy, id: p.id}, method: :delete, data: { confirm: "You sure?" } %>
+		<% end %>
+		<h5>Top Answers</h5>
+		
+		<%= render p.comments %>
+		
+		<%= form_for(@comment, url: {controller: :comments, action: :create}) do |f| %>
+			<%= f.text_area :content, placeholder: "Reply to this question..." %>
+			<%= f.hidden_field :post_id, value: p.id %>
+			<%= f.submit "Reply"%>
+		<% end %>
+
+		<br><hr><br>
+    <% end %>
+
 <% end %>

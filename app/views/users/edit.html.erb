@@ -1,0 +1,45 @@
+<h1>Update Profile</h1>
+
+<%= form_for(@user) do |f| %>
+	<label>
+		<span>First Name</span>
+		<%= f.text_field :firstname %><br>
+	</label>
+
+	<label>
+		<span>Last Name</span>
+		<%= f.text_field :lastname %><br>
+	</label>
+
+	<label>
+		<span>Email</span>
+		<%= f.text_field :email %><br>
+	</label>
+
+	<label>
+		<span>Username</span>
+		<%= f.text_field :username %><br>
+	</label>
+
+	<label>
+		<span>Password</span>
+		<%= f.password_field :password %><br>
+	</label>
+
+	<label>
+		<span>Confirm Password</span>
+		<%= f.password_field :password_confirmation %><br>
+	</label>
+
+	<label>
+		<span>UPLOAD YOUR PIC</span>
+	    <%= f.file_field(:profile_picture) %>
+	</label>
+	
+	<%= f.submit "Update Now" , class: "submit" %>
+<% end %>
+      <!--
+      <button type="button" class="submit">Sign Up</button>
+      <button type="button" class="fb-btn">Join with <span>facebook</span></button>-->
+    </div>
+  </div>

@@ -1,8 +1,9 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
-  def current_user 
-  	return User.find_by(id: session[:user]["id"])
+  def current_user
+    return nil if !session[:user] 
+  	return (@current_user = User.find_by(id: session[:user]["id"]))
   end
 
   def authorize 
@@ -19,4 +20,12 @@ class ApplicationController < ActionController::Base
     end
   end
 
+  def log_out
+    session.delete(:user)
+    @current_user = nil
+  end
+
+  def log_in(user)
+    session[:user] = user
+  end
 end

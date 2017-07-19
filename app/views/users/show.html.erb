@@ -1,0 +1,27 @@
+<% if logged_in? %>
+	<%= link_to "Logout", logout_path, method: :delete %>
+	<%= link_to "Home", root_path %>
+	<%= link_to "Update", edit_user_path(current_user) %>
+<% else %>
+	<%= link_to "Login/Signup", login_path %>
+<% end %>
+
+<br><br>
+<img src="<%= current_user.profile_picture.url%> " class = "profile-picture">
+<h3><%= current_user.firstname%></h3>
+<h3><%= current_user.lastname%></h3>
+
+<% @posts.each do |p| %>
+	Name : <%= p.user.firstname %>
+	Content : <%= p.content %>
+	<br>
+	<%= render p.comments %>
+
+	<%= form_for(@comment, url: {controller: :comments, action: :create}) do |f| %>
+		<%= f.text_area :content, placeholder: "Reply to this question..." %>
+		<%= f.hidden_field :post_id, value: p.id %>
+		<%= f.submit "Reply"%>
+	<% end %>
+
+	<br><br>
+<% end %>
